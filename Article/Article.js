@@ -26,4 +26,9 @@ class Article {
 
 */
 
-let articles;
+const articles = document.querySelectorAll(".article");
+
+articles.forEach(function(article){
+     return new article(article);
+}
+);
